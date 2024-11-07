@@ -8,7 +8,6 @@ const server = jsonServer.create();
 
 const cors = require('cors');
 
-
 // Allow all domains to access the API (for development purposes)
 server.use(cors());
 
