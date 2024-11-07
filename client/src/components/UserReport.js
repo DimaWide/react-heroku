@@ -11,7 +11,8 @@ const UserReport = () => {
     useEffect(() => {
         const fetchUserData = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/users/${id}`);
+                
+                const response = await axios.get(`${process.env.REACT_APP_API_URL}/users/${id}`);
                 setUserData(response.data);
             } catch (error) {
                 console.error("Ошибка при получении данных пользователя:", error);

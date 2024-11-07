@@ -27,7 +27,7 @@ const StepThree = ({ prevStep, formData }) => {
 
     const handleSubmit = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/users', formData);
+            const response = await axios.post(`${process.env.REACT_APP_API_URL}/users`, formData);
             setReport(response.data); // Сохраняем данные пользователя
             setSubmitted(true);
                   // Очистка данных в localStorage после успешной отправки
