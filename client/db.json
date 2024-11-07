@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "32e2",
+      "name": "ыв",
+      "email": "dimonnew777@gmail.com",
+      "address": "dasd",
+      "phone": "0966003226",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": "67d4",
+      "name": "Dima Wide",
+      "email": "dimonnew777@gmail.com",
+      "address": "IvanoFran",
+      "phone": "0966003226",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": "06a3",
+      "name": "Dima Wide",
+      "email": "dimonnew777@gmail.com",
+      "address": "IvanoFran",
+      "phone": "0966003226",
+      "password": "admin1",
+      "confirmPassword": "admin1"
+    },
+    {
+      "id": "f895",
+      "name": "Dima ыв",
+      "email": "dimonnew777@gmail.com",
+      "address": "IvanoFran",
+      "phone": "0966003226",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": "8289",
+      "name": "Dima Wide",
+      "email": "dimonnew777@gmail.com",
+      "address": "IvanoFran",
+      "phone": "0966003226",
+      "password": "dimonnew777",
+      "confirmPassword": "dimonnew777"
+    }
+  ]
+}
