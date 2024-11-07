@@ -1,1 +1,22 @@
-{}
+{
+  "users": [
+    {
+      "name": "Dima Wide",
+      "email": "dimonnew777@gmail.com",
+      "address": "IvanoFran",
+      "phone": "0966003226",
+      "password": "dimonnew777",
+      "confirmPassword": "dimonnew777",
+      "id": 1
+    },
+    {
+      "name": "Dima Wide",
+      "email": "dimonnew777@gmail.com",
+      "address": "IvanoFran",
+      "phone": "0966003226",
+      "password": "dimonnew777",
+      "confirmPassword": "dimonnew777",
+      "id": 2
+    }
+  ]
+}

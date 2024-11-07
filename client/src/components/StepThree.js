@@ -5,6 +5,7 @@ import Summary from './Summary';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
+
 // Styled components
 const Container = styled.div`
     background-color: #f9f9f9; /* Light background */
@@ -28,6 +29,7 @@ const StepThree = ({ prevStep, formData }) => {
     const handleSubmit = async () => {
         try {
             const response = await axios.post(`${process.env.REACT_APP_API_URL}/users`, formData);
+            console.log(response)
             setReport(response.data); // Сохраняем данные пользователя
             setSubmitted(true);
                   // Очистка данных в localStorage после успешной отправки
