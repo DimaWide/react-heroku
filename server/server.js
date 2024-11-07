@@ -3,6 +3,8 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
+console.log(12)
+
 // Используем стандартные middleware (например, для логирования)
 server.use(middlewares)
 
